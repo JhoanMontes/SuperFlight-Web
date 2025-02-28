@@ -1,0 +1,170 @@
+:root {
+  --primary-color: #61c0bf;
+  --secundary-color: #111111;
+  --third-color: #85cfce;
+  --fourth-color: #44aaa9;
+  --fifth-color: #2a2a2a;
+  --sixth-color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+h1>span {
+  color: var(--fourth-color);
+}
+
+
+
+.nav-pills .nav-link {
+  padding: 8px 20px !important;
+  color: black !important;
+}
+
+
+.nav-pills .nav-link.active {
+  background-color: var(--fourth-color) !important;
+  border-color: var(--fourth-color) !important;
+  color: white !important;
+  border-radius: 20px;
+  margin-left: 12px;
+  transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+.nav-link.active:hover {
+  background-color: #3a8e8d !important;
+  border-color: #3a8e8d !important;
+
+}
+
+
+.btn-primary {
+  background-color: var(--fourth-color) !important;
+  border-color: var(--fourth-color) !important;
+  color: white !important;
+  transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+.btn-primary:hover {
+  background-color: #3a8e8d !important;
+  border-color: #3a8e8d !important;
+  color: white !important;
+}
+
+.text-primary {
+
+  color: var(--fourth-color) !important;
+
+}
+
+.container {
+  margin-top: 130px !important;
+}
+
+.form-label {
+  font-size: 12px;
+
+}
+
+.input-group {
+  border-radius: 8px;
+}
+
+.input-group select input {
+  font-size: 14px;
+
+}
+
+.input-group-text {
+  background-color: white;
+  border-right: none;
+  display: flex;
+  align-items: center;
+  
+}
+
+.input-group-text img {
+  width: 16px;
+  height: 16px;
+}
+
+.form-select {
+  border-left: none;
+}
+
+
+.form-control {
+  border-left: none; 
+}
+select:focus, input:focus {
+  outline: none !important;
+  box-shadow: none !important; 
+  border: 1px solid var(--fourth-color) !important;
+}
+
+.nav ul>li:hover {
+  
+color: var(--primary-color);
+
+}
+.footer-container {
+  margin-top: 100px;
+  width: 100% !important;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: var(--secundary-color);
+  border-color: #ffffff !important;
+  color: rgb(255 255 255);
+}
+
+.footer-container a,
+p {
+
+  color: rgb(156 163 175) !important;
+}
+
+.text-body-secondary:hover{
+
+  color: var(--primary-color) !important;
+
+}
+
+
+
+@keyframes translateLogo {
+
+
+  0% {
+    transform: translateY(0px);
+  }
+
+
+  25% {
+    transform: translateY(4px);
+  }
+
+
+  50% {
+    transform: translateY(8px);
+  }
+
+
+  100% {
+    transform: translateY(0px);
+  }
+
+
+}
+
+.animation-translate {
+
+  animation: translateLogo 3s linear infinite;
+
+}
