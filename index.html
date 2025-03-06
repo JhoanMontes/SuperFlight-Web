@@ -92,6 +92,7 @@
                 <option value="Barranquilla">Barranquilla</option>
                 <option value="Cartagena">Cartagena</option>
               </select>
+              <span id="errorDestino" class="error position-absolute"></span>
             </div>
           </div>
           <div class="col-md-6">
@@ -175,11 +176,11 @@
 
     <h6 class="fw-medium mb-3">Desglose del precio</h6>
     <ul class="list-unstyled">
-      <li ><h4 class="title-detail">Tarifa Base:</h4> <span class="result-detail">$</span></li>
-      <li ><h4 class="title-detail">Seleccion de asiento:</h4> <span class="result-detail">$</span></li>
-      <li ><h4 class="title-detail">Equipaje:</h4> <span class="result-detail">$</span></li>
-      <li ><h4 class="title-detail">Impuestos y tasas:</h4> <span class="result-detail">$</span></li>
-      <li class="border-top mt-3 pt-2" ><h4 class="title-detail fw-bold">Precio total:</h4> <span class="result-detail total">$</span></li>
+      <li ><h4 class="title-detail">Tarifa Base:</h4> <span id="tarifaBase" class="result-detail"></span></li>
+      <li ><h4 class="title-detail">Seleccion de asiento:</h4> <span id="precioAsiento" class="result-detail">$</span></li>
+      <li ><h4 class="title-detail">Equipaje:</h4> <span id="precioEquipaje" class="result-detail"></span></li>
+      <li ><h4 class="title-detail">Impuestos y tasas:</h4> <span id="precioImpuestos" class="result-detail"></span></li>
+      <li class="border-top mt-3 pt-2" ><h4 class="title-detail fw-bold">Precio total:</h4> <span id="precioTotal" class="result-detail total"></span></li>
     </ul>
  
      

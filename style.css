@@ -7,7 +7,7 @@
   --sixth-color: #000000;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -106,6 +106,18 @@ h1>span {
   height: 16px;
 }
 
+.error {
+  display: none;
+
+  left: 12px;
+  top: 36px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 0.7rem;
+  color: #ca2828 !important;
+  font-weight: 400;
+}
+
 .form-select {
   border-left: none;
 }
@@ -146,7 +158,7 @@ input:focus {
 
 }
 
-.btn-close:focus{
+.btn-close:focus {
   box-shadow: none !important;
 }
 
@@ -184,7 +196,7 @@ input:focus {
   margin-bottom: 5px;
 }
 
-.total{
+.total {
 
   color: var(--fourth-color) !important;
 }
